@@ -15,4 +15,5 @@ export interface RoadmapFileModel {
   test: RoadmapObjectModel;
   fullstack: RoadmapObjectModel;
   entrevistas: RoadmapObjectModel;
+  cybersec: RoadmapObjectModel;
 }

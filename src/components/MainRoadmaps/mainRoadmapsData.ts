@@ -49,4 +49,11 @@ export const mainRoadmapsData = [
     url: '/roadmap/test',
     image: '/test.png',
   },
+  {
+    title: 'Cibersegurança',
+    description:
+      'Aprenda sobre cibersegurança, um campo que se concentra na proteção de sistemas, redes e programas de computador contra roubo, danos ou acesso não autorizado.',
+    url: '/roadmap/cybersec',
+    image: '/cybersec.png',
+  },
 ];

@@ -6,6 +6,7 @@ import { data as testData } from '../roadmaps/test';
 import { data as communityData } from '../roadmaps/community';
 import { data as fullstackData } from '../roadmaps/fullstack';
 import { data as entrevistasData } from '../roadmaps/entrevistas';
+import { data as cybersecData } from '../roadmaps/cybersec';
 import { dataEngineeringData } from '../roadmaps/dataEngineering';
 import { RoadmapFileModel } from '../entity/RoadmapFileModel';
 
@@ -19,4 +20,5 @@ export const roadmaps: RoadmapFileModel = {
   community: { file: communityData, title: 'Comunidade' },
   test: { file: testData, title: 'Test/QA' },
   entrevistas: { file: entrevistasData, title: 'Entrevistas' },
+  cybersec: { file: cybersecData, title: 'Cibersegurança' },
 };
