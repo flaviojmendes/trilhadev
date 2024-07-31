@@ -180,7 +180,20 @@ export const data: Level[] = [
         ],
       },
       unix,
-      { label: 'Windows', children: [{ label: 'O básico', links: [] }] },
+      { 
+        label: 'Windows',
+        children: [
+          { 
+            label: 'O básico', links: [
+              {
+                label: 'Curso Windows Server 2019 - Iago Ferreira TI)',
+                url: 'https://youtube.com/playlist?list=PLPqoPgWuohm48cyOCSIHl0a_daKv9Hx0j&si=mb-I7eOYlQwyXtZh',
+                contentType: LinkContentType.WATCH,
+              },
+            ] 
+          }
+        ] 
+      },
     ],
   },
   {
@@ -347,6 +360,11 @@ export const data: Level[] = [
               {
                 label: 'Docker em 22 Minutos - Programador a Bordo',
                 url: 'https://livro.descomplicandodocker.com.br/',
+                contentType: LinkContentType.WATCH,
+              },
+              {
+                label: 'Curso Docker DCA - Caio Delgado',
+                url: 'https://youtube.com/playlist?list=PL4ESbIHXST_TJ4TvoXezA0UssP1hYbP9_&si=T5p-STHjCV_lfF40',
                 contentType: LinkContentType.WATCH,
               },
             ],
