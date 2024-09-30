@@ -4,10 +4,6 @@ import { css } from './items/css';
 import { html } from './items/html';
 import { http } from './items/http';
 import { javascript } from './items/javascript';
-import { python } from './items/python';
-import { go } from './items/go';
-import { rust } from './items/rust';
-import { ruby } from './items/ruby';
 import { db } from './items/db';
 import { SO } from './items/SO';
 import { cloudComputing } from './items/cloudComputing';
@@ -133,7 +129,28 @@ export const data: Level[] = [
         description:
           'Um cache é uma camada de armazenamento físico de dados de alta velocidade que guarda um subconjunto de dados, geralmente temporário por natureza, para que futuras solicitações referentes a esses dados sejam atendidas de modo mais rápido do que é possível fazer ao acessar o local de armazenamento principal de dados. O armazenamento em cache permite reutilizar com eficiência dados recuperados ou computados anteriormente.',
         children: [
-          { label: 'CDN', links: [] },
+          {
+            label: 'Conceito',
+            links: [
+              {
+                label:
+                  'Tudo o que você precisa saber sobre cache: como funciona e onde é usado | Dias de Dev',
+                url: 'https://youtu.be/zfTw5AUS0K0',
+                contentType: LinkContentType.WATCH,
+              },
+            ],
+          },
+          {
+            label: 'CDN',
+            links: [
+              {
+                label:
+                  'CDN: Entenda o que é e porque você PRECISA de uma para sua aplicação web | Dias de Dev',
+                url: 'https://youtu.be/2geXZqSeulA',
+                contentType: LinkContentType.WATCH,
+              },
+            ],
+          },
           {
             label: 'Redis',
             links: [

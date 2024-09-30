@@ -124,6 +124,34 @@ export const data: Level[] = [
       },
     ],
   },
+  {
+    items: [
+      {
+        label: 'Performance',
+        description:
+          'Performance no frontend refere-se ao desempenho da interface de usuário de um site ou aplicativo web. Isso inclui coisas como velocidade de carregamento de página, tempo de resposta a interações do usuário e uso de recursos do dispositivo, como CPU e memória.',
+        children: [
+          {
+            label: 'O básico',
+            links: [
+              {
+                label:
+                  'Como usar Cache HTTP - Entenda melhor sobre performance na Web | Dias de Dev',
+                url: 'https://www.youtube.com/watch?v=IrwIYywpvbM',
+                contentType: LinkContentType.WATCH,
+              },
+              {
+                label:
+                  'CDN: Entenda o que é e porque você PRECISA de uma para sua aplicação web | Dias de Dev',
+                url: 'https://youtu.be/2geXZqSeulA',
+                contentType: LinkContentType.WATCH,
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
   packageManager,
   {
     items: [
